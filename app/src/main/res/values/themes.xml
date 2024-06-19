@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ToDoList" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.ToDoList" parent="Base.Theme.ToDoList" />
+
+    <style name="digit_button" parent="Widget.MaterialComponents.ExtendedFloatingActionButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="cornerRadius">36dp</item>
+        <item name="backgroundTint">#DC931E1E</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+    <style name="operator_button" parent="Widget.MaterialComponents.ExtendedFloatingActionButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="cornerRadius">36dp</item>
+        <item name="backgroundTint">#07AA07</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+</resources>
